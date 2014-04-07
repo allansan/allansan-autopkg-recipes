@@ -4,7 +4,7 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the current release version of Audacity from brew-cask.
-    </string>
+		</string>
 	<key>Identifier</key>
 	<string>com.github.allansan.allansan-autopkg-recipes.download.audacity</string>
 	<key>Input</key>
@@ -21,6 +21,10 @@
 			<dict>
 				<key>cask_name</key>
 				<string>audacity</string>
+				<key>description</key>
+				<string>audacity</string>
+				<key>required</key>
+				<true/>
 			</dict>
 			<key>Processor</key>
 			<string>BrewCaskInfoProvider</string>
