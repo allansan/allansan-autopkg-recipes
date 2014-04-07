@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads latest version of SizeUp and imports it into a Munki repo.</string>
 	<key>Identifier</key>
-	<string>com.github.allansan.munki.SizeUp</string>
+	<string>com.github.allansan.allansan-autopkg-recipes.munki.SizeUp</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -31,7 +31,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.allansan.download.SizeUp</string>
+	<string>com.github.allansan.allansan-autopkg-recipes.download.SizeUp</string>
 	<key>Process</key>
 	<array>
 		<dict>
